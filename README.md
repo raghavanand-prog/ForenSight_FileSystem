@@ -1,4 +1,20 @@
-# 🛡️ ForenSight - Digital Forensics File System Inspector
+# ForenSight
+
+**A web app that shows a computer's basic system details and lets an investigator create, read, annotate and delete evidence reports on it.**
+
+Why it exists: a learning project that practises file-system operations and REST APIs in a digital-forensics setting.
+
+## How to run
+
+1. `cd backend && npm install && npm start` (runs on http://localhost:3000).
+2. In another terminal, `cd frontend && npm install && npm run dev`.
+3. Open http://localhost:5173.
+
+---
+
+## Technical details
+
+Everything below is the full write-up for engineers and reviewers.
 
 A Full Stack Digital Forensics application developed using **React**, **Express.js**, and **Node.js Core Modules**. The project demonstrates file system operations, REST APIs, and system information retrieval through a modern web interface.
 
